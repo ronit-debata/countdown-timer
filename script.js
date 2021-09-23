@@ -10,6 +10,7 @@ function Decrement() {
         setTimeout(Decrement,1000);
     }
     else{
+        document.getElementById("timer").style.fontFamily = "Satisfy";
         document.getElementById("timer").classList.add("message");
         document.getElementById("timer").innerHTML = "Happy New Year!";
     }
